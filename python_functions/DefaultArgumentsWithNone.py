@@ -14,7 +14,7 @@ print(appendItem('Pen'))
 
 # using None as value of default parameter
 
-print('Dictionary')
+print('#Dictionary')
 def addItemToDictionary(itemName, quantity, itemList=None):
     if itemList == None:
         itemList = {}
